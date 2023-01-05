@@ -1,5 +1,5 @@
 body {
-    margin: 0 3%;
+    margin: 0 auto;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
@@ -12,7 +12,7 @@ header {
     padding: 1%;
 }
 
-header a {
+a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -42,10 +42,18 @@ main {
     flex-direction: column;
 }
 
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 #graphic_design {
     background-color: #755CDE;
     height: 500px;
-    width: 480px;
+    width: 95%;
 }
 
 .design {
@@ -68,24 +76,78 @@ h2 {
 #contain_imgs {
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
     width: 95%;
+    justify-content: space-between;
 }
 
 #ux {
     background-color: #F6A560;
     height: 200px;
-    width: 180px;
+    width: 170px;
 }
 
 #apps {
     background-color: #F39E9E;
     height: 200px;
-    width: 180px;
+    width: 170px;
 }
 
 #illustrations {
     background-color: #EB7565;
     width: 95%;
     margin-top: 30px;
+}
+
+#photography {
+    background-color: #61C4B7;
+    width: 95%;
+    margin-top: 30px;
+}
+
+#motion {
+    background-color: #552049;
+    width: 95%;
+    margin-top: 30px;
+}
+
+article {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+article img {
+    width: 100%;
+}
+
+article h2 {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+article a {
+    background-color: #EB7565;
+    width: 50%;
+    height: 40px;
+}
+
+#carrousel {
+    display: flex;
+    flex-direction: column;
+}
+
+#carrousel h2 {
+    color: black;
+}
+
+#carrousel_img {
+    display: flex;
+}
+
+#arrow {
+    width: 50px;
 }
