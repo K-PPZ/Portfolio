@@ -1,5 +1,5 @@
 body {
-    margin: 0 auto;
+    margin: 0 3%;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
@@ -23,4 +23,69 @@ header a {
     justify-content: center;
     width: 40%;
     height: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#graphic_design {
+    background-color: #755CDE;
+    height: 500px;
+    width: 480px;
+}
+
+.design {
+    border-radius: 10px;
+}
+
+.design img {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 60%;
+}
+
+h2 {
+    margin-top: 33%;
+    margin-left: 5%;
+    color: white;
+    font-size: 30px;
+}
+
+#contain_imgs {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+#ux {
+    background-color: #F6A560;
+    height: 200px;
+    width: 180px;
+}
+
+#apps {
+    background-color: #F39E9E;
+    height: 200px;
+    width: 180px;
+}
+
+#illustrations {
+    background-color: #EB7565;
+    width: 95%;
+    margin-top: 30px;
 }
