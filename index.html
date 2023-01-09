@@ -5,6 +5,7 @@
     <meta name="description" content="Portfolio">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
@@ -66,22 +67,30 @@
       <div id="carrousel">
         <h2>My Work</h2>
         <div id="carrousel_img">
-          <img src="img/image-slide-1.jpg" alt="#">
-          <img src="img/image-slide-2.jpg" alt="#">
-          <img src="img/image-slide-3.jpg" alt="#">
-          <img src="img/image-slide-4.jpg" alt="#">
-          <img src="img/image-slide-5.jpg" alt="#">
+          <img id="img_left" src="img/image-slide-2.jpg" alt="#">
+          <img id="img_middle" src="img/image-slide-1.jpg" alt="#">
+          <img id="img_right" src="img/image-slide-3.jpg" alt="#">
         </div>
 
         <div id="arrow">
-          <img src="img/icon-arrow-left.svg" alt="#">
-          <img src="img/icon-arrow-right.svg" alt="#">
+          <img id="arrow_left" src="img/icon-arrow-left.svg" alt="#">
+          <img id="arrow_right" src="img/icon-arrow-right.svg" alt="#">
         </div>
       </div>
     </main>
 
     <footer>
+      <div id="book">
+        <h2>Book a call with me</h2>
+        <p>  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a
+          free consultation. Then we can move forward from there.</p>
+          <a href="#">Free Consultation</a>
+      </div>
 
+      <div id="end">
+        <img src="img/logo.svg" alt="#">
+        <a href="#">Free Consultation</a>
+      </div>
     </footer>
 
     <script src="js/app.js"></script>
