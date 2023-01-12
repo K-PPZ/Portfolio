@@ -100,20 +100,16 @@ main {
     justify-content: space-around;
 }
 
-#contain_imgs div {
-    width: 45%;
-}
-
 #ux {
     background-color: #F6A560;
-    height: 200px;
-    width: 170px;
 }
 
 #apps {
     background-color: #F39E9E;
-    height: 200px;
-    width: 170px;
+}
+
+.ux_apps {
+    width: 45%;
 }
 
 #illustrations {
@@ -142,18 +138,22 @@ article {
     flex-direction: column;
 }
 
-/* article img {
-    width: 100%;
-} */
-
-/* article h2 {
-    color: black;
-    text-align: center;
+#person {
     margin-top: 30px;
-    margin-bottom: 5px;
-} */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-article a {
+#person img {
+    width: 100%;
+}
+
+#person article {
+    text-align: center;
+}
+
+#person a {
     background-color: #EB7565;
     width: 50%;
     height: 40px;
@@ -172,13 +172,14 @@ article a {
 
 #carrousel_img {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 95%;
     justify-content: space-around;
 }
 
 #carrousel_img img {
-    width: 90%;
+    width: 85%;
     border-radius: 15px;
     padding: 0 2%;
 }
@@ -187,13 +188,13 @@ article a {
     margin-top: 10px;
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
 #arrow img {
-    width: 5%;
-    padding: 5%;
+    padding: 7%;
     border-radius: 50%;
     background-color: black;
 }
@@ -217,13 +218,23 @@ footer {
     flex-direction: column;
     border-radius: 10px;
     width: 95%;
-    padding: 1%;
-    margin-top: 10px;
+    padding: 7%;
+    margin-top: 100px;
+}
+
+#book h2 {
+    font-size: 195%;
+}
+
+#book p {
+    color: white;
 }
 
 #book a {
-    margin-bottom: 25px;
+    margin-bottom: 10%;
     background-color: #EB7565;
+    padding: 4%;
+    width: 60%;
 }
 
 #end {
@@ -232,4 +243,9 @@ footer {
     align-items: center;
     width: 95%;
     margin-top: 10px;
+}
+
+#end a {
+    padding: 5%;
+    width: 50%;
 }
